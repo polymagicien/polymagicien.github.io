@@ -18,3 +18,14 @@ In a few words :
 - Thanks to a well chosen NN and the co-occurence matrix, the GloVe yields a vector for each word of the dataset, with a given number of features. 
 - It generally reflects what is going on in the neighborhood of a vector
 - Pre-trained vectors are available [here](https://nlp.stanford.edu/projects/glove/) 
+
+# Typical python libraries
+``` python
+#NLP libraries
+import spacy, nltk, gensim, sklearn
+import pyLDAvis.gensim
+
+#Vader
+import vaderSentiment
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+```
