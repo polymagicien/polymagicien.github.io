@@ -20,7 +20,7 @@ In a few words :
 - Pre-trained vectors are available [here](https://nlp.stanford.edu/projects/glove/) 
 
 # Typical python libraries
-``` python
+```python
 #NLP libraries
 import spacy, nltk, gensim, sklearn
 import pyLDAvis.gensim
