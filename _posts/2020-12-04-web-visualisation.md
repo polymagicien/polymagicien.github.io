@@ -15,7 +15,6 @@ comments: true
 
 ![](/assets/post_img/dark_side.jpg)
 
-<!-- {% imagesize /assets/post_img/dark_side.jpg:img?width=250 alt='steam-fish-1' %} -->
 
 <!-- Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
