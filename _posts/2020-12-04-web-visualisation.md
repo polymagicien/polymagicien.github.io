@@ -16,10 +16,10 @@ comments: true
 ![](/assets/post_img/dark_side.jpg)
 
 
-<!-- Solarized dark             |  Solarized Ocean
+Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![](/assets/post_img/dark_side.jpg)  |  ![](/assets/post_img/dark_side.jpg)
 
 {% include image_with_caption.html url="/assets/post_img/dark_side.jpg" description="Test of caption" %}
 
-Lores ipsum -->
+Lores ipsum
