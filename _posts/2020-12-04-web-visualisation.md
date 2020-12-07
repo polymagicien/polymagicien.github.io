@@ -17,10 +17,10 @@ comments: true
 
 <!-- {% imagesize /assets/post_img/dark_side.jpg:img?width=250 alt='steam-fish-1' %} -->
 
-Solarized dark             |  Solarized Ocean
+<!-- Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 ![](/assets/post_img/dark_side.jpg)  |  ![](/assets/post_img/dark_side.jpg)
 
 {% include image_with_caption.html url="/assets/post_img/dark_side.jpg" description="Test of caption" %}
 
-Lores ipsum
+Lores ipsum -->
