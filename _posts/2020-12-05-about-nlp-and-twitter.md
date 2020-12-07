@@ -12,6 +12,19 @@ comments: true
 - Casefolding : everything in lowercase. In practice, not a good idea when the dataset is large
 
 
+### Preprocessing tweets 
+Following [this kaggle post](https://www.kaggle.com/raenish/tweet-sentiment-insight-eda)  
+To know whether a feature of the text is worth keeping, a simple analysis can be carried out using the training data. Ask yourselves these questions. "What sentiment do tweet tend to have when they contain / have the following characteristic ?" :
+- a URL
+- some sort of punctuation ('!' may be more likely in positive tweets, '*' in negative ones, ...)
+- a given length (neutral tweets can tend to be longer)
+
+
+Other unanswered questions : 
+- How to deal with emojis ?
+
+Helper [regex](https://www.kaggle.com/raenish/cheatsheet-text-helper-functions)
+
 ## GloVe 
 In a few words :
 - Stands for *global vector*
