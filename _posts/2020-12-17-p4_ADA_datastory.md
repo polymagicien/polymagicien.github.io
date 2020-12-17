@@ -12,6 +12,7 @@ comments: true
 - Images have to be stored in ``assets\img\p4_ADA_datastory\``
 - html includes (interactive plots, ...) have to be stored in ``_includes\p4_ADA_datastory\``
 - No formulas --> put it in the notebooks
+- Once pushed, the result can be seen [here](https://polymagicien.github.io/2020-12-17-p4_ADA_datastory/) after ~5 minutes
 
 ## Examples
 Inclusion of a graph
