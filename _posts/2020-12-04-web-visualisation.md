@@ -9,7 +9,7 @@ comments: true
 
 ## Test with plotly
 
-{% include fig_test.html %}
+{% include p4_ADA_datastory/fig_test.html %}
 
 ## Test of side by side images
 
