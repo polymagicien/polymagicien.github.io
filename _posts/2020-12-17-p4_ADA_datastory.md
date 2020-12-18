@@ -24,3 +24,9 @@ Inclusion of an image
 ![](/assets/post_img/p4_ADA_datastory/EPFL.png){: width="50%"}
 
 # Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dapibus nibh, quis viverra mi. Fusce dignissim vel purus a condimentum. Suspendisse vel tincidunt lorem, nec scelerisque ante. Ut pharetra, odio a vestibulum faucibus, magna purus laoreet elit, vitae pulvinar nulla orci pellentesque sem. Nulla at tincidunt eros. Nullam ac ex nec est aliquam condimentum. Nunc nunc nunc, pharetra sit amet volutpat sed, auctor in arcu.
+
+{% include p4_ADA_datastory/file.html %}
+
+Donec fringilla iaculis turpis id tristique. Pellentesque et arcu sed libero scelerisque finibus nec quis nisi. Mauris varius nibh non elit tincidunt tempor. Quisque vel pharetra nulla, non tincidunt mi. In hac habitasse platea dictumst. Sed eget lectus quis est posuere tempor. Mauris ligula turpis, pellentesque et pretium a, laoreet vitae ante. Mauris nec magna libero. Nunc aliquet consequat justo eget vehicula. Aenean sem diam, dictum ac sollicitudin vulputate, pellentesque eu mauris. Vivamus rutrum vel felis vel aliquam. Nullam aliquam vitae leo ac tempor. Nunc rutrum nisi vitae nunc consequat, vitae condimentum mi convallis. Morbi imperdiet, ipsum sit amet convallis ullamcorper, metus nibh molestie odio, sed placerat velit tellus eget massa. Maecenas vitae viverra justo.
+
