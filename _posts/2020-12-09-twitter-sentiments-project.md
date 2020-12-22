@@ -147,7 +147,7 @@ Finally, it was noticed that an increased number of LSTM layers and number of no
 
 Results are summarized in Figure 5. The first model yielded an accuracy of 0.87 on AIcrowd.
 
-| ![](/assets/post_img/twitter-sentiments-project/RNN_Sam.PNG){:height="400px"} | 
+| ![](/assets/post_img/twitter-sentiments-project/rnn_sam.PNG){:height="400px"} | 
 |:--:| 
 | *Figure 5 : Performance of RNN with various configurations* |
 
