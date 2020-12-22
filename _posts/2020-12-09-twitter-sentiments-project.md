@@ -2,7 +2,7 @@
 layout: post
 title: "Twitter sentiment analysis"
 subtitle: CS-433
-tags: [nlp, twitter]
+tags: [Machine Learning, NLP, EPFL]
 comments: true
 ---
 
