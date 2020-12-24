@@ -6,7 +6,7 @@ authors: [mickael_rey, jonas_schweizer, samuel_thirion]
 tags: [Data analysis, EPFL]
 comments: true
 ---
-
+ 
 # Starting point
 ## Introduction
 In May 2020, a research team from Stanford University published a [paper](https://www.nature.com/articles/s41562-020-0858-1) conducting a thorough analysis of the racial disparities in police stops in the US. The paper tackles a simple question: are police officers prejudiced against minorities? Supported by a ten-years span record of police stops across all the United States, the authors highlight that there is an overall police bias against minorities, targetting black people in particular.

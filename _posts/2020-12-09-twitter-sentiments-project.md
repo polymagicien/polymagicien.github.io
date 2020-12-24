@@ -5,13 +5,10 @@ subtitle: CS-433
 authors: [charles_lescures, jonas_schweizer, samuel_thirion]
 tags: [Machine Learning, NLP, EPFL]
 cover-img: /assets/post_img/twitter_sentiments_project/cover_hashtag.png
+custom-javascript-list:
+  - "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
 comments: true
 ---
-
-<!-- Mathjax Support -->
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 # Abstract
 Sentiment analysis is the task of extracting subjective or qualitative information from textual data. It can involve various scientific domains, including Machine Learning, and more particularly Natural Language Processing. Distinguishing a positive from a negative sentence can be a useful tool to improve recommender systems or, in the case of tweets, to capture the general mood of a population.
@@ -40,7 +37,7 @@ This paper presents three methods for tweeter sentiment analyzis: a method with 
 As a starter, a raw analysis was carried out on the training dataset, whose goal was to determine the kind of preprocessing to apply. It mainly consists in comparing if some characteristics (letters, symbols, length) are a good indicator of the tweet sentiment and could be used as additional features in our future models or could be removed to lighten the dataset. For instance, Figure 1 shows for example that long tweets tend to be much more frequently negative. It was also noticed that negative tweets are more likely to contain urls and exclamation marks. In parallel, stopword removal techniques were tried using Spacy's list of English stopwords as a basis. As the list is short, we manually refined it by keeping words bearing strong sentiments, such as "against", "without", "nowhere" for instance. Finally, small transformative function were tried: replacing emojis by words of equivalent sentiments, removing matching parenthesis, parsing hashtags, ...
 
 
-| ![len_distribution](/assets/post_img/twitter_sentiments_project/len.PNG){:height="400px"} | 
+| ![len_distribution](/assets/post_img/twitter_sentiments_project/len.PNG){:width="80%"} | 
 |:--:| 
 | *Figure 1 : distribution of tweets' length* |
 
@@ -76,7 +73,7 @@ Finally, the discovery of recurrent neural networks (RNN) and of the embedding l
 On a dedicated platform, the training lasted ~5h. For this reason, this model and its variations have been evaluated with a classical train (0.8) / test (0.2) set duo, and not with a cross-validation. This also holds for the following models.
 
 
-| ![len_distribution](/assets/post_img/twitter_sentiments_project/rnn.PNG){:height="400px"} | 
+| ![len_distribution](/assets/post_img/twitter_sentiments_project/rnn.PNG){:width="30%"} | 
 |:--:| 
 | *Figure 2 : Illustration of the RNN network used* |
 
@@ -122,7 +119,7 @@ As explained above, there are multiple ways of embedding document into vectors. 
 
 It turned that the models showed better results when only using *nltk*'s stopwords removal functionality, and not our own preprocessing. Without our preprocessing, the prediction results are summarized in Figure 3.
 
-| ![](/assets/post_img/twitter_sentiments_project/tfidf_res.PNG){:height="400px"} | 
+| ![](/assets/post_img/twitter_sentiments_project/tfidf_res.PNG){:width="70%"} | 
 |:--:| 
 | *Figure 3 : Accuracy of TF-IDF combined with various classifiers. NB: Naive Bayes, RF: Random Forest. Optimized: after hyperparameter optimization* |
 
@@ -135,7 +132,7 @@ Training a GloVe model from scratch requires a lot of time and computing power, 
 
 To show the performance of the GloVe-based model, a graph showing the accuracy of a Random Forest using GloVe embeddings is provided in Figure 4.
 
-| ![](/assets/post_img/twitter_sentiments_project/glove_rf.PNG) | 
+| ![](/assets/post_img/twitter_sentiments_project/glove_rf.PNG){:width="70%"} | 
 |:--:| 
 | *Figure 4 : Performance of Random forests with GloVe embeddings* |
 
@@ -149,7 +146,7 @@ Finally, it was noticed that an increased number of LSTM layers and number of no
 
 Results are summarized in Figure 5. The first model yielded an accuracy of 0.87 on AIcrowd.
 
-| ![](/assets/post_img/twitter_sentiments_project/rnn_sam.PNG){:height="400px"} | 
+| ![](/assets/post_img/twitter_sentiments_project/rnn_sam.PNG){:width="70%"} | 
 |:--:| 
 | *Figure 5 : Performance of RNN with various configurations* |
 
