@@ -2,6 +2,7 @@
 layout: post
 title: "Twitter sentiment analysis"
 subtitle: CS-433
+authors: [charles_lescures, jonas_schweizer, samuel_thirion]
 tags: [Machine Learning, NLP, EPFL]
 comments: true
 ---

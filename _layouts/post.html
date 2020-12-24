@@ -31,6 +31,31 @@ layout: base
         </div>
       {% endif %}
 
+      {% assign authorCount = page.authors | size %}
+      {% if authorCount > 0 %}
+        <p>
+          Written by 
+
+          {% if authorCount == 1 %}
+              {% assign authorId = page.authors | first %}
+              {% assign author = site.data.authors[authorId] %}
+              <a href="{{ author.web }}">{{ author.name }}</a>
+              
+          {% else %}
+              {% for authorId in page.authors %}
+                  {% assign author = site.data.authors[authorId] %}
+                  {% if forloop.first %}
+                      <a href="{{ author.web }}">{{ author.name }}</a>
+                  {% elsif forloop.last %}
+                      and <a href="{{ author.web }}">{{ author.name }}</a>
+                  {% else %}
+                  , <a href="{{ author.web }}">{{ author.name }}</a>
+                  {% endif %}
+              {% endfor %}
+          {% endif %}
+        </p>
+      {% endif %}
+
       {% if page.before-content %}
         <div class="before-content">
           {% for file in page.before-content %}
