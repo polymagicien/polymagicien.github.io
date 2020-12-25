@@ -5,6 +5,7 @@ subtitle: Small tutorial
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/thumb.png
 share-img: /assets/img/path.jpg
+excerpt: ""
 tags: [books, test]
 ---
 
@@ -19,12 +20,8 @@ Solarized dark             |  Solarized Ocean
 {: .box-note}
 **Note:** This is a notification box.
 
-### Warning
-
 {: .box-warning}
 **Warning:** This is a warning box.
-
-### Error
 
 {: .box-error}
 **Error:** This is an error box.

@@ -4,6 +4,7 @@ title: Are aged white male police officers really more biased than the average ?
 subtitle: Study of differences in the police stop schemes among police officers in the US
 authors: [mickael_rey, jonas_schweizer, samuel_thirion]
 tags: [Data analysis, EPFL]
+excerpt: "In May 2020, a research team from Stanford University published a paper conducting a thorough analysis of the racial disparities in police stops in the US. Starting from the same data, we tried to highlight stop schemes based of the characteristics of the police officers."
 comments: true
 ---
  
