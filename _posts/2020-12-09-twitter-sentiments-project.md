@@ -6,7 +6,7 @@ authors: [charles_lescure, jonas_schweizer, samuel_thirion]
 tags: [Machine Learning, NLP, EPFL]
 cover-img: /assets/post_img/twitter_sentiments_project/cover_hashtag.png
 custom-javascript-list:
-  - "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"
 comments: true
 excerpt: "Binary sentiment analysis on tweets, as a project for an EPFL course. From linear regression to BERT, this report presents the NLP methods tried and the results achieved."
 ---
